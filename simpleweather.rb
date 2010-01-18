@@ -21,11 +21,12 @@ get '/:city' do |city|
   if not city_code.has_key? city then
     "I'm too dumb to understand where #{city} is. Is that a real city?"
   else
-    @code = city_code[city]
+    code = city_code[city]
     @city = city
-    response = ""
+    @weatherurl = base_url + code
 
-    open(base_url + @code) {|f| response = f.read }
+    response = ""
+    open(base_url + code) {|f| response = f.read }
     if response =~ /.*<dt>Condition:<\/dt><dd>(.*?)<\/dd>/ then
       @conditions = $1
     end

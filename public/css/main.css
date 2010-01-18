@@ -1,0 +1,13 @@
+body { 
+    background-color: #FFF;
+    text-align: center;
+    font-size: 70pt;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+#weather {
+    padding-top: 90pt;
+}
+a { 
+    color: #000; 
+    text-decoration: none; 
+}
