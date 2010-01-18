@@ -17,7 +17,7 @@ provinces.each { |province|
   code_cities = response.scan(/city_e.html\?(.*)&amp;unit=m">(.*)<\/a>/)
 
   code_cities.each { |code_city|
-    output += "#{code_city[0]},#{code_city[1]}\n"
+    output += "#{code_city[1]},#{code_city[0]}\n"
   }
 
 }
