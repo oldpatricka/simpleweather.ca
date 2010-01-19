@@ -1,14 +1,3 @@
-!!! 5
-/ 
-  simpleweather.ca - the weather, on a website 
-  _
-  all weather data comes from http://www.weatheroffice.gc.ca/ 
-  and is copywrited by the Government of Canada
-%html
-  %head
-    %title weather in #{@city.downcase}
-    %link{:rel => "stylesheet", :href => "css/main.css"}
-  %body
-    %p#weather 
-      %a{ :href => @weatherurl }
-        #{@conditions}
+%p#weather 
+  %a{ :href => @weatherurl }
+    #{@conditions}

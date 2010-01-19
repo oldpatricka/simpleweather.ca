@@ -1,12 +1,13 @@
 #
 # simpleweather.rb - a bitty ruby script to get Environment Canada weather 
 #                    and just show you the good stuff.
+require 'open-uri'
+require 'csv'
 
 require 'rubygems'
 require 'sinatra'
-require 'csv'
 require 'haml'
-require 'open-uri'
+require 'amatch'
 
 
 city_data = File.dirname(__FILE__) + "/data/citymap.csv"
@@ -19,7 +20,30 @@ end
 
 get '/:city' do |city|
   if not city_code.has_key? city then
-    "I'm too dumb to understand where #{city} is. Is that a real city?"
+
+    # Do a search to see if we can find a similarly spelled weather station
+    m = Amatch::Levenshtein.new(city)
+    matches = []
+    best_distance = 1000
+
+    city_code.keys.each do |key|
+
+      distance = m.match(key)
+
+      if distance < best_distance then
+        best_distance = distance
+        matches = [key]
+
+      elsif distance == best_distance then
+        matches << key
+      end
+
+    end
+    
+    @city = matches.first
+    @suggest_url = "/" + @city
+    haml :didyoumean
+
   else
     code = city_code[city]
     @city = city
