@@ -69,6 +69,10 @@ get '/:city' do |city|
 end
 
 get '/' do
-  'Hello. It looks like you want weather.'
+  if params[:city] then
+    redirect "/" + params[:city]
+  end
+  @city = "canada"
+  haml :pickcity
 end
 

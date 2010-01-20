@@ -1,13 +1,35 @@
 body { 
     background-color: #FFF;
     text-align: center;
-    font-size: 70pt;
+    font-size: 72pt;
     font-family: Helvetica, Arial, sans-serif;
-    }
-#weather {
-    padding-top: 90pt;
+    margin-top: 200pt;
 }
+
 a { 
-    color: #000; 
-    text-decoration: none; 
+    color: #666; 
+    text-decoration: none;
 }
+
+a:hover { 
+    color: #555; 
+}
+
+.message {
+    font-size: 48pt;
+}
+
+#weather {
+}
+
+#weather a {
+    color: #000; 
+}
+
+input {
+    border: 1px solid;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
