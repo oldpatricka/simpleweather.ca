@@ -58,10 +58,12 @@ get '/:city' do |city|
       @temperature = $1
     end
 
-    if @conditions then
+    if @conditions and @temperature then
       @conditions = "#{@temperature}, #{@conditions}"
-    else
+    elsif @temperature then
       @conditions = @temperature
+    elsif not @conditions and not @temperature then
+      @conditions = "No observations. Forecast at Weatheroffice."
     end
 
     haml :weather
