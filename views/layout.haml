@@ -1,4 +1,4 @@
-!!! 5
+!!! 5 UTF-8
 / 
   simpleweather.ca - the weather, on a website 
   _
@@ -8,6 +8,7 @@
   and is copywrited by the Government of Canada
 %html
   %head
+    %meta{:charset => "utf-8"}
     %title weather in #{@city.downcase}
     %link{:rel => "stylesheet", :href => "css/main.css"}
   %body
