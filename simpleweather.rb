@@ -28,9 +28,14 @@ get '/:city' do |city|
 
     city_code.keys.each do |key|
 
+      # First check to see that it's not a case issue (eg. Vancouver/vancouver)
+      if key.downcase == city.downcase then
+        redirect "/" + key
+      end
+
       distance = m.match(key)
 
-      if distance >best_distance then
+      if distance > best_distance then
         best_distance = distance
         matches = [key]
 
