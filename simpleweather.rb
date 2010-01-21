@@ -22,15 +22,15 @@ get '/:city' do |city|
   if not city_code.has_key? city then
 
     # Do a search to see if we can find a similarly spelled weather station
-    m = Amatch::Levenshtein.new(city)
+    m = Amatch::LongestSubsequence.new(city)
     matches = []
-    best_distance = 1000
+    best_distance = 0
 
     city_code.keys.each do |key|
 
       distance = m.match(key)
 
-      if distance < best_distance then
+      if distance >best_distance then
         best_distance = distance
         matches = [key]
 

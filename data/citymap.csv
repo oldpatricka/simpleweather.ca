@@ -347,11 +347,11 @@ Bridgewater,ns-6
 Brier Island,ns-27
 Cape George,ns-41
 Caribou,ns-34
-Chéticamp,ns-38
+ChÃ©ticamp,ns-38
 Digby,ns-20
 Economy,ns-7
 Fourchu Head,ns-24
-Grand Étang,ns-32
+Grand Ã‰tang,ns-32
 Greenwood,ns-35
 Guysborough,ns-8
 Halifax,ns-19
@@ -509,7 +509,7 @@ Orangeville,on-140
 North Perth,on-51
 Orillia,on-13
 Oshawa,on-117
-Ottawa (Kanata - Orléans),on-118
+Ottawa (Kanata - OrlÃ©ans),on-118
 Ottawa (Richmond - Metcalfe),on-52
 Owen Sound,on-7
 Oxtongue Lake,on-53
@@ -597,8 +597,8 @@ Baie-Saint-Paul,qc-165
 Beauce,qc-164
 Beauceville,qc-48
 Beauharnois,qc-49
-Bécancour,qc-50
-Bernières,qc-51
+BÃ©cancour,qc-50
+BerniÃ¨res,qc-51
 Berthierville,qc-25
 Blainville,qc-52
 Blanc-Sablon,qc-163
@@ -628,15 +628,15 @@ Fermont,qc-29
 Forestville,qc-27
 Forillon,qc-67
 Forillon (National Park),qc-95
-Gaspé,qc-101
-Gaspésie (Parc national),qc-94
+GaspÃ©,qc-101
+GaspÃ©sie (Parc national),qc-94
 Gatineau,qc-126
-Gouin (Réservoir),qc-a1
+Gouin (RÃ©servoir),qc-a1
 Granby,qc-5
-Grande-Vallée,qc-169
+Grande-VallÃ©e,qc-169
 Havre St-Pierre,qc-104
 Huntingdon,qc-68
-Îles-de-la-Madeleine,qc-103
+ÃŽles-de-la-Madeleine,qc-103
 Inukjuak,qc-131
 Ivujivik,qc-112
 Joliette,qc-137
@@ -648,23 +648,23 @@ Kuujjuaq,qc-150
 Kuujjuarapik,qc-105
 L'Assomption,qc-156
 L'Islet,qc-77
-La Grande Rivière,qc-158
+La Grande RiviÃ¨re,qc-158
 La Grande-Quatre,qc-100
 La Malbaie,qc-11
 La Prairie,qc-71
 La Sarre,qc-45
 La Tuque,qc-154
-La Vérendrye (Réserve faunique),qc-30
+La VÃ©rendrye (RÃ©serve faunique),qc-30
 Lac Raglan,qc-99
 Lac Saint-Jean,qc-73
-Lac-Mégantic,qc-72
+Lac-MÃ©gantic,qc-72
 Lachute,qc-14
-Lanaudière,qc-74
+LanaudiÃ¨re,qc-74
 Laurentides,qc-75
-Laurentides (Réserve faunique),qc-113
+Laurentides (RÃ©serve faunique),qc-113
 Laval,qc-76
 Le Gardeur,qc-d3
-Lévis,qc-78
+LÃ©vis,qc-78
 Longueuil,qc-109
 Lorraine,qc-81
 Louiseville,qc-d2
@@ -685,7 +685,7 @@ Mont-Joli,qc-127
 Mont-Laurier,qc-47
 Mont-Tremblant,qc-167
 Montmagny,qc-124
-Montréal,qc-147
+MontrÃ©al,qc-147
 Murdochville,qc-16
 Natashquan,qc-125
 New Carlisle,qc-111
@@ -693,70 +693,70 @@ Nicolet,qc-110
 Otterburn Park,qc-93
 Papineau,qc-17
 Parent,qc-114
-Percé,qc-18
+PercÃ©,qc-18
 Pincourt,qc-96
-Pointe-à-la-Croix,qc-20
+Pointe-Ã -la-Croix,qc-20
 Pontiac,qc-19
 Port-Cartier,qc-97
 Port-Menier,qc-142
-Prévost,qc-98
+PrÃ©vost,qc-98
 Puvirnituq,qc-40
 Quaqtaq,qc-106
-Québec,qc-133
+QuÃ©bec,qc-133
 Repentigny,qc-a0
 Richelieu,qc-21
 Rigaud,qc-a2
 Rimouski,qc-138
-Rivière-du-Loup,qc-108
+RiviÃ¨re-du-Loup,qc-108
 Roberval,qc-134
-Rosemère,qc-a3
+RosemÃ¨re,qc-a3
 Rouyn-Noranda,qc-148
 Saguenay,qc-166
 Saint-Amable,qc-a5
 Saint-Basile Le Grand,qc-a6
 Saint-Constant,qc-a7
 Saint-Eustache,qc-b4
-Saint-Félicien,qc-b5
+Saint-FÃ©licien,qc-b5
 Saint-Georges,qc-b6
 Saint-Hyacinthe,qc-22
 Saint-Jean-sur-Richelieu,qc-28
-Saint-Jérôme,qc-13
+Saint-JÃ©rÃ´me,qc-13
 Saint-Lazare,qc-b7
 Saint-Lin-Laurentides,qc-b8
 Saint-Luc,qc-b9
 Saint-Michel-des-Saints,qc-c0
-Saint-Nicéphore,qc-c1
-Saint-Rémi,qc-c2
+Saint-NicÃ©phore,qc-c1
+Saint-RÃ©mi,qc-c2
 Saint-Sauveur,qc-c3
-Saint-Timothée,qc-c4
+Saint-TimothÃ©e,qc-c4
 Sainte-Agathe,qc-33
 Sainte-Anne-Des-Monts,qc-a8
 Sainte-Anne-Des-Plaines,qc-a9
 Sainte-Catherine,qc-b0
 Sainte-Julie,qc-b1
 Sainte-Sophie,qc-b2
-Sainte-Thérèse,qc-b3
+Sainte-ThÃ©rÃ¨se,qc-b3
 Salaberry-de-Valleyfield,qc-143
 Salluit,qc-128
 Schefferville,qc-115
-Sept-Îles,qc-141
+Sept-ÃŽles,qc-141
 Shawinigan,qc-132
 Sherbrooke,qc-136
 Sorel-Tracy,qc-c6
 Sutton,qc-135
 Tadoussac,qc-107
 Tasiujaq,qc-145
-Témiscamingue,qc-139
+TÃ©miscamingue,qc-139
 Temiscouata,qc-35
 Terrebonne,qc-c7
 Thetford Mines,qc-c8
 Tracy,qc-c9
 Trois-Pistoles,qc-24
-Trois-Rivières,qc-130
+Trois-RiviÃ¨res,qc-130
 Umiujaq,qc-122
 Val-d'Or,qc-149
 Val-des-Monts,qc-42
-Vallée de la Matapédia,qc-d0
+VallÃ©e de la MatapÃ©dia,qc-d0
 Vanier,qc-41
 Varennes,qc-162
 Vaudreuil-Dorion,qc-66

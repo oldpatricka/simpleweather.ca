@@ -4,12 +4,15 @@
 #                   a list of them
 
 require 'open-uri'
+require 'iconv'
+
 
 data_file = File.dirname(__FILE__) + "/../data/citymap.csv"
 province_base_url = "http://text.www.weatheroffice.gc.ca/forecast/canada/index_e.html?id="
 provinces = ["AB", "BC", "MB", "NB", "NL", "NT", "NS", "NU", "ON", "PE", "QC", "SK", "YT"]
 response = ""
 output = ""
+
 
 provinces.each { |province|
 
@@ -21,6 +24,8 @@ provinces.each { |province|
   }
 
 }
+
+output = Iconv.conv("UTF-8", "iso-8859-1", output)
 
 data_out = File.open(data_file, "w")
 data_out.puts(output)
